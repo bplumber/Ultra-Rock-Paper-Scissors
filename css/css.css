@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background-image: url('../img/backss.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	/*ackground-color: black;*/
+
+}
+
+header{
+	/*background-color: black;*/
+	padding: 20px;
+}
+
+header > h1{
+	color: black;
+	text-align: center;
+	font-family: Monotype Corsiva;
+	font-size: 60px;
+}
+ 
+.score-board{
+	margin: 20px auto;
+	border: 3px solid black;
+	border-radius: 4px;
+	text-align: center;
+	width: 180px;
+	color: black;
+	font-size: 60px;
+	padding: 15px 20px;
+	font-family: Asap, sans-serif;
+	position: relative;
+}
+
+.badge{
+	background-color: red;
+	padding: 2px 10px;
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+#user-label{
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+}
+
+#computer-label{
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+}
+
+
+.result{
+	font-size: 40px;
+	color: black;
+}
+
+.result > p{
+	text-align: center;
+	font-weight: bold;
+	font-family: Asap, sans-serif;
+}
+
+.choices{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.choice{
+	display: inline-block;
+	border: 4px solid black;
+	border-radius: 30px;
+	margin: 10px 10px;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+.caption{
+	color: black;
+	font-family: Asap, sans-serif;
+}
+
+.choice:hover{
+	cursor: pointer; 
+	background: black;
+	color: white;
+}
+
+#action-message{
+	text-align: center;
+	color: black;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.green-glow{
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+	border: 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow{
+	border: 4px solid #464647;
+	box-shadow: 0 0 10px #25292b;
+}
+
+#rules{
+	text-align: center;
+	font-family: Asap, sans-serif;
+	color: black;
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: bold;
+
+}
+
+.instruct{
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 3px;
+	margin-bottom: : 5px;
+	font-family: Asap, sans-serif;
+}
+
+#nameofgame{
+	text-align: center;
+	margin-top: 10%;
+}
+
+#nameofgame > h1,h3{
+	font-size: 100px;
+	font-family: Monotype Corsiva;
+}
+
+#hchoices{
+	
+	text-align: center;
+	padding: 20px;
+}
+
+.hchoice{
+	display: inline-block;
+	padding: 20px;
+	font-weight: bold;
+	font-family: Asap, sans-serif;
+	font-size: 20px;
+	font-size: 30px;
+}
+
+.rresult{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 10%;
+	font-family: Asap, sans-serif;
+}
+
+.again{
+	text-align: center;
+	padding: 10px;
+}
+
+.aagain{
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Asap, sans-serif;
+}
+
+.button{
+	color:black	;
+	padding: 3px 12px;
+	font-weight: bold;
+	background-color: gray;
+	margin-top: 5px;
+	border-radius: 10px;
+	font-family: Asap, sans-serif;
+	font-size: 20px;
+
+}
+
+.button:hover{
+	cursor: pointer;
+}
+img{
+	border-radius: 30px;
+}
+
+#rul{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
